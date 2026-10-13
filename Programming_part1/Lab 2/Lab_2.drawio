@@ -1,0 +1,55 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:149.0) Gecko/20100101 Firefox/149.0">
+  <diagram name="Page-1" id="bVieEcjTi1S9Q_-muKpO">
+    <mxGraphModel grid="1" page="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="lzdi_PlgQ8h5P-V5TXgO-1" edge="1" parent="1" source="lzdi_PlgQ8h5P-V5TXgO-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="lzdi_PlgQ8h5P-V5TXgO-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="lzdi_PlgQ8h5P-V5TXgO-2" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=default;strokeColor=default;fontStyle=1" value="start" vertex="1">
+          <mxGeometry height="30" width="128.59" x="192.70000000000005" y="5" as="geometry" />
+        </mxCell>
+        <mxCell id="lzdi_PlgQ8h5P-V5TXgO-6" edge="1" parent="1" source="lzdi_PlgQ8h5P-V5TXgO-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="lzdi_PlgQ8h5P-V5TXgO-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="lzdi_PlgQ8h5P-V5TXgO-7" parent="1" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=default;" value="7.391^-3*x" vertex="1">
+          <mxGeometry height="60" width="220" x="147" y="250" as="geometry" />
+        </mxCell>
+        <mxCell id="lzdi_PlgQ8h5P-V5TXgO-8" edge="1" parent="1" source="lzdi_PlgQ8h5P-V5TXgO-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="lzdi_PlgQ8h5P-V5TXgO-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="lzdi_PlgQ8h5P-V5TXgO-9" parent="1" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;Ініціалізація данних&lt;/font&gt;&amp;nbsp;(k, e)" vertex="1">
+          <mxGeometry height="60" width="220" x="147" y="65" as="geometry" />
+        </mxCell>
+        <mxCell id="OZfOUJ55D3WYKC6bL5_n-1" edge="1" parent="1" source="lzdi_PlgQ8h5P-V5TXgO-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="lzdi_PlgQ8h5P-V5TXgO-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="lzdi_PlgQ8h5P-V5TXgO-11" parent="1" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" value="Введення користувачем&lt;br&gt;значення х" vertex="1">
+          <mxGeometry height="60" width="220" x="147" y="155.01999999999998" as="geometry" />
+        </mxCell>
+        <mxCell id="lzdi_PlgQ8h5P-V5TXgO-15" edge="1" parent="1" source="lzdi_PlgQ8h5P-V5TXgO-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="lzdi_PlgQ8h5P-V5TXgO-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="lzdi_PlgQ8h5P-V5TXgO-16" parent="1" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=default;" value="x^5*(e^(1/k)-1)" vertex="1">
+          <mxGeometry height="60" width="220" x="147" y="350" as="geometry" />
+        </mxCell>
+        <mxCell id="lzdi_PlgQ8h5P-V5TXgO-17" edge="1" parent="1" source="lzdi_PlgQ8h5P-V5TXgO-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="lzdi_PlgQ8h5P-V5TXgO-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="lzdi_PlgQ8h5P-V5TXgO-18" parent="1" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=default;" value="w=(7.391^-3*x) / (x^5*(e^(1/k)-1))" vertex="1">
+          <mxGeometry height="60" width="220" x="147" y="440" as="geometry" />
+        </mxCell>
+        <mxCell id="lzdi_PlgQ8h5P-V5TXgO-19" edge="1" parent="1" source="lzdi_PlgQ8h5P-V5TXgO-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="lzdi_PlgQ8h5P-V5TXgO-21">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="lzdi_PlgQ8h5P-V5TXgO-20" parent="1" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" value="Виведення w" vertex="1">
+          <mxGeometry height="60" width="220" x="147" y="530" as="geometry" />
+        </mxCell>
+        <mxCell id="lzdi_PlgQ8h5P-V5TXgO-21" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=default;strokeColor=default;fontStyle=1" value="&lt;b&gt;end&lt;/b&gt;" vertex="1">
+          <mxGeometry height="30" width="128.59" x="192.70000000000005" y="610" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

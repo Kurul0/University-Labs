@@ -1,0 +1,95 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:148.0) Gecko/20100101 Firefox/148.0" version="29.6.1">
+  <diagram name="Page-1" id="T5JoXg2oW_CZM8wJj8tK">
+    <mxGraphModel grid="1" page="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="dtip9x8ir05ZEopnzkmq-2" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeColor=#A8201A;fontColor=default;fillColor=#FAE5C7;labelBackgroundColor=none;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="890.0526315789475" y="10" as="sourcePoint" />
+            <mxPoint x="890.0000000000002" y="40" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dtip9x8ir05ZEopnzkmq-5" edge="1" parent="1" source="dtip9x8ir05ZEopnzkmq-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeColor=#A8201A;fontColor=default;fillColor=#FAE5C7;labelBackgroundColor=none;" target="dtip9x8ir05ZEopnzkmq-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="dtip9x8ir05ZEopnzkmq-6" parent="1" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;strokeColor=#0F8B8D;fontColor=#143642;fillColor=#FAE5C7;labelBackgroundColor=none;rounded=0;fontSize=14;" value="Введення змінної N" vertex="1">
+          <mxGeometry height="60" width="220" x="780" y="120" as="geometry" />
+        </mxCell>
+        <mxCell id="dtip9x8ir05ZEopnzkmq-7" edge="1" parent="1" source="dtip9x8ir05ZEopnzkmq-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#A8201A;fontColor=default;fillColor=#FAE5C7;labelBackgroundColor=none;" target="dtip9x8ir05ZEopnzkmq-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="dtip9x8ir05ZEopnzkmq-8" edge="1" parent="1" source="dtip9x8ir05ZEopnzkmq-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeColor=#A8201A;fontColor=default;fillColor=#FAE5C7;labelBackgroundColor=none;" target="dtip9x8ir05ZEopnzkmq-20">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1120" y="340" />
+              <mxPoint x="1120" y="740" />
+              <mxPoint x="890" y="740" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dtip9x8ir05ZEopnzkmq-9" parent="1" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;strokeColor=#0F8B8D;fontColor=#143642;fillColor=#FAE5C7;labelBackgroundColor=none;rounded=0;fontSize=14;" value="Задання меж для обчислень&lt;br&gt;&lt;b&gt;for &lt;/b&gt;i&lt;b&gt; in range&lt;/b&gt;&amp;nbsp;(1, n, 1)" vertex="1">
+          <mxGeometry height="80" width="245" x="767.5" y="300" as="geometry" />
+        </mxCell>
+        <mxCell id="dtip9x8ir05ZEopnzkmq-10" edge="1" parent="1" source="dtip9x8ir05ZEopnzkmq-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#A8201A;fontColor=default;fillColor=#FAE5C7;labelBackgroundColor=none;" target="dtip9x8ir05ZEopnzkmq-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="dtip9x8ir05ZEopnzkmq-11" parent="1" style="rhombus;whiteSpace=wrap;html=1;strokeColor=#0F8B8D;fontColor=#143642;fillColor=#FAE5C7;labelBackgroundColor=none;rounded=0;fontSize=14;" value="&lt;b&gt;Перевірка умови парності:&lt;/b&gt;&lt;br&gt;число ділиться на 2 без остачі&lt;br&gt;&lt;b&gt;if&lt;/b&gt; i %&amp;nbsp;2 = 0" vertex="1">
+          <mxGeometry height="160" width="301.87" x="738.13" y="420" as="geometry" />
+        </mxCell>
+        <mxCell id="dtip9x8ir05ZEopnzkmq-12" edge="1" parent="1" source="dtip9x8ir05ZEopnzkmq-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#A8201A;fontColor=default;fillColor=#FAE5C7;labelBackgroundColor=none;" target="dtip9x8ir05ZEopnzkmq-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="dtip9x8ir05ZEopnzkmq-13" parent="1" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#0F8B8D;fontColor=#143642;fillColor=#FAE5C7;labelBackgroundColor=none;fontSize=14;" value="Обнулення початкової&amp;nbsp;&lt;br&gt;величини суми&lt;br&gt;S = 0" vertex="1">
+          <mxGeometry height="60" width="220" x="780" y="200" as="geometry" />
+        </mxCell>
+        <mxCell id="dtip9x8ir05ZEopnzkmq-14" edge="1" parent="1" source="dtip9x8ir05ZEopnzkmq-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeColor=#A8201A;fontColor=default;fillColor=#FAE5C7;labelBackgroundColor=none;" target="dtip9x8ir05ZEopnzkmq-9">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="890" y="710" />
+              <mxPoint x="680" y="710" />
+              <mxPoint x="680" y="340" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dtip9x8ir05ZEopnzkmq-15" parent="1" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#0F8B8D;fontColor=#143642;fillColor=#FAE5C7;labelBackgroundColor=none;fontSize=14;" value="S=S+I" vertex="1">
+          <mxGeometry height="60" width="160" x="810" y="610" as="geometry" />
+        </mxCell>
+        <mxCell id="dtip9x8ir05ZEopnzkmq-16" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontColor=#143642;labelBackgroundColor=none;" value="&lt;b&gt;True&lt;/b&gt;" vertex="1">
+          <mxGeometry height="30" width="60" x="900" y="570" as="geometry" />
+        </mxCell>
+        <mxCell id="dtip9x8ir05ZEopnzkmq-18" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontColor=#143642;labelBackgroundColor=none;" value="&lt;b&gt;False&lt;/b&gt;" vertex="1">
+          <mxGeometry height="30" width="60" x="1010" y="460" as="geometry" />
+        </mxCell>
+        <mxCell id="hnB86uRmIEOayOB87--h-57" edge="1" parent="1" source="dtip9x8ir05ZEopnzkmq-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeColor=#A8201A;fontColor=#143642;fillColor=#FAE5C7;" target="dtip9x8ir05ZEopnzkmq-23">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="dtip9x8ir05ZEopnzkmq-20" parent="1" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;strokeColor=#0F8B8D;fontColor=#143642;fillColor=#FAE5C7;labelBackgroundColor=none;rounded=0;fontSize=14;" value="Виведення s" vertex="1">
+          <mxGeometry height="60" width="210" x="785" y="770" as="geometry" />
+        </mxCell>
+        <mxCell id="dtip9x8ir05ZEopnzkmq-22" parent="1" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#0F8B8D;fontColor=#143642;fillColor=#FAE5C7;labelBackgroundColor=none;fontSize=14;" value="&lt;b&gt;Start&lt;/b&gt;" vertex="1">
+          <mxGeometry height="40" width="120" x="830" y="-30" as="geometry" />
+        </mxCell>
+        <mxCell id="dtip9x8ir05ZEopnzkmq-23" parent="1" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#0F8B8D;fontColor=#143642;fillColor=#FAE5C7;labelBackgroundColor=none;fontSize=14;" value="&lt;b&gt;End&lt;/b&gt;" vertex="1">
+          <mxGeometry height="40" width="120" x="830" y="860" as="geometry" />
+        </mxCell>
+        <mxCell id="hnB86uRmIEOayOB87--h-52" edge="1" parent="1" source="hnB86uRmIEOayOB87--h-51" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeColor=#A8201A;fontColor=#143642;fillColor=#FAE5C7;" target="dtip9x8ir05ZEopnzkmq-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="hnB86uRmIEOayOB87--h-51" parent="1" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#0F8B8D;fontColor=#143642;fillColor=#FAE5C7;labelBackgroundColor=none;fontSize=14;" value="Ініціалізація змінних&lt;br&gt;I, S, N" vertex="1">
+          <mxGeometry height="60" width="200" x="790" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="hnB86uRmIEOayOB87--h-56" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;strokeColor=#A8201A;fontColor=#143642;fillColor=#FAE5C7;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <Array as="points">
+              <mxPoint x="1080" y="500" />
+              <mxPoint x="1080" y="700" />
+            </Array>
+            <mxPoint x="1037.5" y="500" as="sourcePoint" />
+            <mxPoint x="890" y="700" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

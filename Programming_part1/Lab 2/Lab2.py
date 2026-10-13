@@ -1,0 +1,14 @@
+import math;
+k=2;
+e=math.e;
+w=float();
+x=float(input("Please enter the value of x\n"));
+y1=y2=y3=y4=y5=y6=float();
+y1=7.3910**(-3);
+y2=y1*x;
+y3=x**5;
+y4=e**(1/k);
+y5=y4-1;
+y6=y3*y5;
+w=y2/y6;
+print ("Result is w =",w);
