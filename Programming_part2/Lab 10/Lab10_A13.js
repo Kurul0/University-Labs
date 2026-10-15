@@ -9,8 +9,8 @@ const F = new Set([...B].filter(x => !A.has(x))); //різниця
 console.log("A належить C:", [...A].every(x => C.has(x)));
 console.log("D належить C:", [...D].every(x => C.has(x)));
 const temp = new Set([...E, ...F, ...D]);
-console.log("C = E+F+D:", C.size === temp.size && [...C].every(x => temp.has(x)));
-console.log("Перетин E і F:", [...E].every(x => !F.has(x)));
+console.log("C = E перетин F перетин D:", C.size === temp.size && [...C].every(x => temp.has(x)));
+console.log("Перетин E і F = пуста множина", [...E].every(x => !F.has(x)));
 
 console.log("A:", A);
 console.log("B:", B);

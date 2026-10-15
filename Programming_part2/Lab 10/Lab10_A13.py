@@ -6,9 +6,9 @@ D = A & B #перетин
 E = A - B #різниця
 F = B - A #різниця
 
-print("\nA належить B:\n", A.issubset(C))
+print("\nA належить С:\n", A.issubset(C))
 print("D належить C:\n", D.issubset(C))
-print("E + F + D, чи вийде C:\n", C == E | F | D)
+print("E перетин F перетин D = C:\n", C == E | F | D)
 print("E перетин з F = пуста множина\n", E.isdisjoint(F))
 
 print("A:", A)
